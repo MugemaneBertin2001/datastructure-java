@@ -1,4 +1,6 @@
 package Prior_queue;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -8,7 +10,7 @@ public class Main {
         //                  with the highest priorities first before 
         //                  elements with lower priority 
 
-        Queue<Double> queue = new PriorityQueue<>();
+        Queue<Double> queue = new PriorityQueue<>(Collections.reverseOrder());
 
         queue.offer(3.0);
         queue.offer(2.0);
