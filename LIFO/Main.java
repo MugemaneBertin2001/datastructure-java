@@ -1,4 +1,8 @@
 import java.util.Stack;
+// stack = LIFO data structure. Last-In First_Out
+//         stores  objects into a sort  of vertical tower
+//         push() to add to the object
+//         pop() to remove from the top
 /*
  * When to use stack
  * 1. Web browser history
